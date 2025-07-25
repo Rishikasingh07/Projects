@@ -1,18 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Playwrite+AU+QLD:wght@100..400&display=swap');
 body {
-    background-color: #e0f7fa;
-    font-family: 'Funnel Display', sans-serif;
-    text-align: center;
-    margin: ;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
 }
-.first h1{
-    font-family: "Playwrite AU QLD", cursive;
-    text-align: center;
-    text-decoration: solid;
+.main-header {
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-.first h2{
-    font-family:  "Funnel Display", sans-serif;
+
+.main-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
+
+.main-header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #f0f0f0;
+}
+
 .main-nav ul {
   list-style: none;
   display: grid;
